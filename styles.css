@@ -1,0 +1,27 @@
+.square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-blue {
+  background: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  border: 1px solid #cdcdcd;
+}
+
+li {
+  padding: .3em .7em;
+  cursor: pointer;
+  background: lightpink;
+}
+li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
